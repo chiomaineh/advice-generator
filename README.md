@@ -44,7 +44,7 @@ Built with **HTML, CSS, and JavaScript**, it also features a responsive design t
 
 ## ✨ Live Demo
 You can also see it live here:  
-👉 [https://your-username.github.io/advice-generator-app/](https://your-username.github.io/advice-generator-app/)
+👉 [https://advice-generator-self-seven.vercel.app/] (https://github.com/chiomaineh/advice-generator.git)
 
 ---
 
