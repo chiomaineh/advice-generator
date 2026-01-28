@@ -23,6 +23,8 @@
 // ASYNC & AWAIT METHOD
 const adviceBlock = document.getElementById('advice');
 const adviceId = document.getElementById('advice-num');
+
+document.getElementById('dice').addEventListener('click', fetchAdvice);
 async function fetchAdvice() {
   try {
 
