@@ -22,12 +22,13 @@
 
 // ASYNC & AWAIT METHOD
 const adviceBlock = document.getElementById('advice');
-const adviceId = document.getElementById('advice-num')
+const adviceId = document.getElementById('advice-num');
 async function fetchAdvice() {
   try {
 
     const response = await fetch(
-      'https://api.adviceslip.com/advice'
+      'https://api.adviceslip.com/advice',
+       { cache: 'no-store' }
     );
     if (!response.ok){
       throw new Error('Could not get resource')
